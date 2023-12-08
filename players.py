@@ -10,4 +10,7 @@ class Player:
 
     def draw(self):
         pygame.draw.rect(self.screen, (255, 255, 255), (self.x_coordinate, self.y_coordinate, self.width, self.height))
+
+
+
         
