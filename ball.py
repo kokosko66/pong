@@ -51,8 +51,6 @@ class Ball:
             self.velocity_x = -self.velocity_x
             self.velocity_y = -self.velocity_y
 
-
-
         if (
             player2.x_coordinate < self.x < player2.x_coordinate + player2.width and
             player2.y_coordinate < self.y < player2.y_coordinate + player2.height
@@ -60,9 +58,6 @@ class Ball:
             
             self.velocity_x = -self.velocity_x
             self.velocity_y = -self.velocity_y
-
-
-
 
 
         if self.x - self.radius <= 0:

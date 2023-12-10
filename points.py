@@ -10,4 +10,4 @@ class Score:
         self.score_player2 += 1
 
     def get_score_text(self):
-        return f"{self.score_player1} | {self.score_player2}"
+        return f"{self.score_player1} || {self.score_player2}"
