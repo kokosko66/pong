@@ -18,7 +18,7 @@ player2 = Player(770, 200, screen, 20, 120)
 score = Score()
 ball = Ball(385, 385, screen, 0.25, 0.25)
 
-run = False
+run = True
 
 
 while run:
