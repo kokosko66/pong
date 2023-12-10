@@ -21,7 +21,6 @@ ball = Ball(385, 385, screen, 0.25, 0.25)
 run = True
 
 
-
 while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
